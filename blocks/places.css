@@ -27,7 +27,7 @@
     max-width: 458.6px;
     font-weight: 900;
     font-size: 4.5rem;
-    line-height: 4.75rem;
+    line-height: 1;
     letter-spacing: 0em;
     margin: 0;
     grid-area: title;
@@ -53,7 +53,7 @@
     grid-area: botton;
     font-weight: 500;
     font-size: 1.125rem;
-    line-height: 1.375rem;
+    line-height: 1;
     letter-spacing: 0em;
     text-decoration: none;
     color: #ffffff;
@@ -76,7 +76,7 @@
     max-width: 57.82px;
     font-size: 0.75rem;
     font-weight: 400;
-    line-height: 0.9075rem;
+    line-height: 1;
     letter-spacing: 0.125em;
     color: #aaaaaa;
     margin: 0 auto 0 0;
@@ -87,7 +87,7 @@
     max-width: 454.61px;
     font-size: 1.125rem;
     font-weight: 400;
-    line-height: 1.375rem;
+    line-height: 1;
     letter-spacing: 0em;
     color: #ffffff;
     display: flex;
@@ -99,7 +99,7 @@
     width: 100%;
     max-width: 454.61px;
     font-size: 1.125rem;
-    line-height: 1.375rem;
+    line-height: 1;
     letter-spacing: 0em;
     color: #ffffff;
   }
@@ -114,7 +114,7 @@
     max-width: 485px;
     font-weight: 400;
     font-size: 1.125rem;
-    line-height: 1.83375rem;
+    line-height: 1.5;
     letter-spacing: 0em;
     margin: 0 auto 25px 0;
   }
@@ -133,7 +133,7 @@
     .place__title {
       max-width: 340px;
       font-size: 2.625rem;
-      line-height: 2.875rem;
+      line-height: 1;
     }
   
     .place__image {
@@ -144,7 +144,7 @@
     .place__button {
       font-weight: 400;
       font-size: 0.875rem;
-      line-height: 1.05875rem;
+      line-height: 1;
     }
   
     .place__artist-information {
@@ -158,7 +158,7 @@
     .place__paragraph {
       max-width: 352px;
       font-size: 1rem;
-      line-height: 1.63rem;
+      line-height: 1.25
       margin: 0 auto 14px 0;
     }
   }
@@ -175,7 +175,7 @@
     .place__title {
       max-width: 288px;
       font-size: 2rem;
-      line-height: 2.1875rem;
+      line-height: 1;
       margin-top: 0;
       margin-left: 16px;
       margin-bottom: 30px;
@@ -210,7 +210,7 @@
     .place__paragraph {
       max-width: 288px;
       font-size: 1rem;
-      line-height: 1.625rem;
+      line-height: 1;
       margin: 0 auto 25px 0;
     }
   }
