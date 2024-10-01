@@ -15,7 +15,7 @@
     grid-template-areas:
       "title artist"
       "image text"
-      "botton text"
+      "button text"
       ". text";
     column-gap: 40px;
     row-gap: 48px;
@@ -47,10 +47,11 @@
     border: none;
     border-radius: 4px;
     background-color: #0278fe;
+    background-image: linear-gradient(90deg, #0278FE 0%, #003A7B 100%);
     display: flex;
     justify-content: center;
     align-items: center;
-    grid-area: botton;
+    grid-area: button;
     font-weight: 500;
     font-size: 1.125rem;
     line-height: 1;
@@ -62,6 +63,7 @@
   .place__button:hover {
     background-color: #0063d2;
     cursor: pointer;
+    background-image: none;
   }
   
   .place__artist {
