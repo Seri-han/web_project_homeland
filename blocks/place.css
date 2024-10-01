@@ -42,28 +42,19 @@
   }
   
   .place__button {
-    width: 100%;
-    max-width: 284.13px;
-    height: 48px;
+    margin: 0;
+    width: 70%;
+    height: 50px;
+    font-size: 18px;
+    background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
+    color: white;
     border: none;
-    border-radius: 4px;
-    background-color: #0278fe;
-    background-image: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    grid-area: button;
-    font-weight: 500;
-    font-size: 1.125rem;
-    line-height: 1;
-    letter-spacing: 0em;
-    text-decoration: none;
-    color: #ffffff;
     box-shadow: 5px 5px 10px #00000040;
+    border-radius: 3px;
+    padding: 0;
   }
   
   .place__button:hover {
-    cursor: pointer;
     background: linear-gradient(90deg, #0278fe40 0%, #003a7b40 99.98%);
   }
   
